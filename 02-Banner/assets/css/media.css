@@ -1,0 +1,65 @@
+/* MOBILE VERSION */
+@media(max-width:768px){
+      /* p1.html code */
+      header{
+            background-color: teal;
+            padding: 20px;
+      }
+      header>nav>ul{
+            float: none;
+      }
+      header>nav>ul>li{
+            display: block;
+      }
+      header>nav>ul{
+            text-align: center;
+      }
+      /* p2.html code */
+      .banner1{
+            background-color: aquamarine;
+      }
+      /* p3.html code */
+      .banner2{
+            background-image: url(../images/bg2.jpg);
+      }
+      /* p4.html code */
+      .banner3{
+            background: linear-gradient(/* to right */ orange, white, green);
+      }
+      /* p4.html code */
+      .banner4{
+            background: repeating-linear-gradient(30deg, orange, white, green 50%, green, white, orange);
+      }
+      /* p5.html code */
+}
+
+/* TABLET VERSION */
+@media(min-width:769px) and (max-width:1024px){
+      /* p1.html code */
+      header{
+            background-color: red;
+            padding: 5px;
+      }
+      header>nav>ul{
+            float: none;
+      }
+      header>nav{
+            text-align: center;
+      }
+      /* p2.html code */
+      .banner1{
+            background-color: skyblue;
+      }
+      /* p3.html code */
+      .banner2{
+            background-image: url(../images/bg3.jpg);
+      }
+      /* p4.html code */
+      .banner3{
+            background: linear-gradient(lightblue, blue);
+      }
+      /* p5.html code */
+      .banner4{
+            background: repeating-linear-gradient(60deg, lightblue, blue 50%, blue, lightblue);
+      }   
+}
